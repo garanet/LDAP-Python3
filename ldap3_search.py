@@ -1,4 +1,6 @@
 # https://ldap3.readthedocs.io/searches.html
+# SEARCH AND CHANGE THE 'CHANGEME' value.
+
 import boto3, json, base64
 from botocore.exceptions import ClientError 
 from ldap3 import Server, Connection, AUTO_BIND_NO_TLS, SUBTREE, ALL_ATTRIBUTES
